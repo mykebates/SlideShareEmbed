@@ -1,0 +1,16 @@
+{
+  "name": "SlideShareEmbed",
+  "title": "jQuery SlideShare Embed",
+  "description": "A jQuery plugin to embed SlideShare player by providing the URL",
+  "author": "Myke Bates",
+  "homepage": "https://github.com/mykebates/SlideShareEmbed/",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0"
+  },
+  "scripts": {}
+}

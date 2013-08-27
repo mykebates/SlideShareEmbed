@@ -1,0 +1,29 @@
+{
+	"name": "SlideShareEmbed",
+	"title": "jQuery SlideShare Embed",
+	"description": "jQuery plugin to embed SlideShare player by providing the URL",
+	"keywords": [
+		"jquery",
+		"SlideShare",
+		"embed",
+		"plugin"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Myke Bates",
+		"email": "contact@mykebates.com",
+		"url": "http://mykebates.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"homepage": "https://github.com/mykebates/SlideShareEmbed",
+	"docs": "https://github.com/mykebates/SlideShareEmbed#readme",
+	"download": "https://github.com/mykebates/SlideShareEmbed/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
