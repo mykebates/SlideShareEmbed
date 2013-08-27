@@ -23,9 +23,7 @@ Include the script after jQuery is included
 
 ###JavaScript
 ```JavaScript
-<script>
-	$(function() {
-		$(".slideshare").slideShareEmbed();
-	});
-</script>
+$(function() {
+	$(".slideshare").slideShareEmbed();
+});
 ```
