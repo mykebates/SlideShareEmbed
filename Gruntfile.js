@@ -20,8 +20,8 @@ module.exports = function(grunt) {
 		// Concat definitions
 		concat: {
 			dist: {
-				src: ["src/jquery.boilerplate.js"],
-				dest: "dist/jquery.boilerplate.js"
+				src: ["src/jquery.slideShareEmbed.js"],
+				dest: "dist/jquery.slideShareEmbed.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
 		// Lint definitions
 		jshint: {
-			files: ["src/jquery.boilerplate.js"],
+			files: ["src/jquery.slideShareEmbed.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -39,8 +39,8 @@ module.exports = function(grunt) {
 		// Minify definitions
 		uglify: {
 			my_target: {
-				src: ["dist/jquery.boilerplate.js"],
-				dest: "dist/jquery.boilerplate.min.js"
+				src: ["dist/jquery.slideShareEmbed.js"],
+				dest: "dist/jquery.slideShareEmbed.min.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
