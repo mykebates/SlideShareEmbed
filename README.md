@@ -17,12 +17,12 @@ Include the script after jQuery is included
 
 
 ###HTML
-```
+```HTMl
 <a class="slideshare" href="http://www.slideshare.net/mykebates/power-without-plugins-wordcamp-miami-2012">SlideShare Test</a>
 ```
 
 ###JavaScript
-```
+```JavaScript
 <script>
 	$(function() {
 		$(".slideshare").slideShareEmbed();
