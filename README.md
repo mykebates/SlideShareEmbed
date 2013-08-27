@@ -1,7 +1,7 @@
 SlideShareEmbed
 ===============
 
-jQuery plugins to embed SlideShare player by providing the URL
+jQuery plugin to embed SlideShare player by simply providing the URL
 
 
 #Usage
@@ -10,10 +10,13 @@ Right now the plugin is very bare.  Simply create an anchor tag with the SlideSh
 
 ##Example
 
+
+###HTML
 ```
 <a class="slideshare" href="http://www.slideshare.net/mykebates/power-without-plugins-wordcamp-miami-2012">SlideShare Test</a>
 ```
 
+###JavaScript
 ```
 <script>
 	$(function() {
